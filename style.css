@@ -15,4 +15,9 @@ ul,
 ol {
     text-align: left;
 }
+img {
+    height: 350px;
+    width: auto;
+    object-fit: scale-down;
+}
 
