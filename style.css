@@ -11,12 +11,10 @@ h1 {
 h3 {
     background-color: rgb(237, 188, 216);
 }
-.recipes-container {
-    display: flex;
-    justify-content: center;
+ul.recipes-container {
     background-color: rgb(250, 208, 225);
-    border: 1px solid white;
-    flex: auto;
+    list-style-type: none;
+    display: flex;
 }
 .recipes {
     display: flex;
@@ -30,5 +28,6 @@ img {
     width: auto;
     max-height: 100%;
     max-width: 100%;
+    object-fit: scale-down;
 }
 
