@@ -12,7 +12,6 @@ h3 {
     background-color: rgb(237, 188, 216);
 }
 ul.recipes-container {
-    background-color: rgb(250, 208, 225);
     display: flex;
     padding: 0;
 }
