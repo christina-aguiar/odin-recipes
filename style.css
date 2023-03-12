@@ -13,8 +13,8 @@ h3 {
 }
 ul.recipes-container {
     background-color: rgb(250, 208, 225);
-    list-style-type: none;
     display: flex;
+    padding: 0;
 }
 .recipes {
     display: flex;
@@ -22,6 +22,7 @@ ul.recipes-container {
     align-items: center;
     flex: auto;
     border: 1px solid white;
+    list-style: none;
 }
 img {
     height: 350px;
