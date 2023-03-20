@@ -4,9 +4,15 @@ body {
     text-align: center;
     color: rgb(38, 23, 23);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    height: 100vh;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 h1 {
-    color: rgb(117, 46, 125);
+    color: rgb(214, 63, 230);
 }
 h3 {
     background-color: rgb(237, 188, 216);
@@ -16,7 +22,7 @@ ul.recipes-container {
     padding: 0;
     gap: 2rem;
 }
-.recipes {
+li.recipes {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,6 +30,10 @@ ul.recipes-container {
     border: 2px solid white;
     list-style: none;
     background-color: rgb(237, 188, 216);
+}
+li a {
+    text-decoration: none;
+    color: blueviolet;
 }
 img {
     height: 350px;
@@ -33,3 +43,11 @@ img {
     object-fit: scale-down;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    background-color: rgb(246, 218, 234);
+    border: 1px solid lightslategray;
+}
