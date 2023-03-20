@@ -27,6 +27,7 @@ h3 {
     display: flex;
     justify-content: center;
     gap: 50px;
+    flex-wrap: wrap;
 }
 ul.recipes-container {
     display: flex;
