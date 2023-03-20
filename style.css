@@ -12,24 +12,35 @@ body {
     justify-content: space-between;
 }
 h1 {
+    display: flex;
+    justify-content: center;
+    padding: 24px;
     color: rgb(214, 63, 230);
+    background-color: rgb(246, 218, 234);
 }
 h3 {
     background-color: rgb(237, 188, 216);
 }
+.content {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
 ul.recipes-container {
     display: flex;
-    padding: 0;
+    flex-direction: column;
     gap: 2rem;
 }
 li.recipes {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: auto;
-    border: 2px solid white;
+    flex: 1;
+    border: 2px solid rgb(244, 123, 240);
     list-style: none;
     background-color: rgb(237, 188, 216);
+    padding: 16px;
+    border-radius: 20%;
 }
 li a {
     text-decoration: none;
