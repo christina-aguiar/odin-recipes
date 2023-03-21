@@ -44,6 +44,12 @@ li.recipes {
     border-radius: 20%;
     border: 2px solid white;
 }
+
+ul,
+ol {
+    text-align: left;
+}
+
 a {
     text-decoration: none;
     color: blueviolet;
