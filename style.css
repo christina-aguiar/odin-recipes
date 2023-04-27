@@ -15,7 +15,7 @@ h1 {
     display: flex;
     justify-content: center;
     padding: 24px;
-    color: rgb(178, 71, 189);
+    color: rgb(102, 53, 105);
     background-color: rgb(246, 218, 234);
     margin-top: 0;
     border: 2px solid white;
@@ -52,7 +52,7 @@ ol {
 
 a {
     text-decoration: none;
-    color: blueviolet;
+    color: rgb(49, 28, 69);
 }
 img {
     height: 350px;
